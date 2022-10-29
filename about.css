@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans:wght@300&family=Island+Moments&family=Koulen&family=Poppins&family=Roboto:wght@300&display=swap');
+
+
+
+body    {
+    background: #000;
+    color: #fff;
+
+    height: 100%;
+    margin: 0;
+}
+
+
+header {
+    display: flex;
+    align-items: top;
+    justify-content:space-evenly;
+
+    width: 95vw;
+    height: 15rem;
+    margin-inline: auto;
+}
+    .banner  {
+        width: 15rem;
+        height: 25rem;
+    }
+
+    .header-text    {
+        font-family: "IBM Plex Sans";
+        font-weight: lighter; 
+        text-align: center;
+    }
+    
+    h1{
+        font-size: 4.5rem;
+        font-family: "Bebas Neue";
+        font-weight: lighter;
+    }
+
+
+
+/* ARTICLE */
+
+article {
+    background: #080808;
+
+    width: 40vw;
+    padding: 3rem 5rem;
+    margin-inline: auto;
+    margin-bottom: 3rem;
+}
+
+section {
+    display: flex;
+    align-items:center;
+    /* height: 5rem; */
+    padding-bottom: 1rem;
+}
+
+    section img{
+        padding-inline: 4rem;
+
+        /* height: 100%; */
+        width: 5rem;
+    }
+
+
+
+
+/* FOOTER */
+
+footer  {
+    background: rgb(50, 50, 50);
+
+    font-family: "oswald", "IBM Plex Mono";
+
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+
+.social  {
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 2rem;
+
+    margin: 0 auto 1rem auto;
+}
+
+    .social img  {   
+        height: 2rem;
+    }
+
+
+
+footer h3   {
+    font-size: 1.5rem;
+    text-decoration: underline;
+
+    margin-bottom: .4rem;
+}
+
+footer ul * {
+    color: #fff;
+
+    font-size: 1.2rem;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.end{
+    display: flex;
+    justify-content: space-between;
+
+    padding-inline: 2rem;
+}
+
+    .about ul {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+        line-height: 1.6rem;
+
+        list-style-type: none;
+
+        padding-left: .5rem;
+        margin-top: 1.3rem;
+        margin-right: 3rem;
+    }
+
+
+
